@@ -1,0 +1,42 @@
+[
+    {
+    "id": "1",
+    "nombre": "Grupo 1",
+    "produccion": "Producto A",
+    "entrega":  "\"2020-01-DDTHH:mm:ssZ\""
+    },
+
+    {
+    "id": "2",
+    "nombre": "Grupo ",
+    "produccion": "Producto B",
+    "entrega":  "\"2020-01-DDTHH:mm:ssZ\""
+    },
+
+    {
+    "id": "3",
+    "nombre": "Grupo 3",
+    "produccion": "Producto C",
+    "entrega":  "\"2020-01-DDTHH:mm:ssZ\""
+    },
+    {
+    "id": "4",
+    "nombre": "Grupo 4",
+    "produccion": "Producto D",
+    "entrega":  "\"2020-01-DDTHH:mm:ssZ\""
+    },
+    
+    {
+    "id": "5",
+    "nombre": "Grupo 5",
+    "produccion": "Producto E",
+    "entrega":  "\"2020-01-DDTHH:mm:ssZ\""
+        },
+        
+    {
+    "id": "6",
+    "nombre": "Grupo 6",
+    "produccion": "Producto F",
+    "entrega":  "\"2020-01-DDTHH:mm:ssZ\""
+        }
+ ]

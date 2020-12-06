@@ -1,0 +1,107 @@
+:root{
+    --borde: 2px solid black;
+    --color-secundary: rgb(228, 227, 227); 
+    --color-button : #c78216;
+}
+
+*{
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#nav{
+    width: 100vw;
+    height: 98px;
+    padding-top: 10px;
+    border-bottom: var(--borde);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+#description{
+    margin: 0px 0px 10px 0px;
+}
+
+#img{
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#img img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+#first-section{
+    width: 100vw;
+    border-bottom: var(--borde);
+    height: 30px;
+    background-color: #F5E7dE;
+    padding-bottom: 10px;
+}
+
+#first-section p{
+    margin-left: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+   
+}
+
+#container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.grupo{
+    width: 100%;
+    height: 100px;
+    border-bottom: 5px solid rgb(216, 212, 212);
+}
+
+
+#container h4, h5, .fechas{
+    margin: 10px 0px 0px 15px;
+}
+#container h4{
+    font-weight: bolder;    
+}
+
+#container  p{
+    margin-top: 0px;
+}
+
+.grupo button{
+    background-color: var(--color-button);
+    border: 1px solid var(--color-button);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    outline: none; 
+    position: relative;
+    bottom: 50px;
+    right: -240px;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+button:hover{
+    cursor: grab;
+}
+
+
+#footer{
+    width: 100vw;
+    height: 30px;
+    text-align: center;
+    background-color: #F5E7df;
+    padding-top: 10px;
+}
